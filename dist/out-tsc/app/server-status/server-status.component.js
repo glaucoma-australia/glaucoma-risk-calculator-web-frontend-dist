@@ -9,6 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component, Input } from '@angular/core';
 import { ServerStatusService } from '../api/server-status.service';
+var pkg_js = require('./../../../package.json').version;
 var ServerStatusComponent = (function () {
     function ServerStatusComponent(serverStatusService) {
         this.serverStatusService = serverStatusService;
@@ -16,7 +17,7 @@ var ServerStatusComponent = (function () {
     }
     ServerStatusComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.serverStatusService.get().then(function (serverStatus) { return _this.serverStatus = { version: "Offscale.io - API version: " + serverStatus.version }; }).catch(function (error) { return _this.serverStatus = { version: 'Offscale.io - API server not available' }; });
+        this.serverStatusService.get().then(function (serverStatus) { return _this.serverStatus = { version: pkg_js + " - API version: " + serverStatus.version }; }).catch(function (error) { return _this.serverStatus = { version: pkg_js + " - API server not available" }; });
     };
     return ServerStatusComponent;
 }());
