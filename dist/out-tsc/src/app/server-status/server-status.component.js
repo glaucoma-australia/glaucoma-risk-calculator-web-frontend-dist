@@ -16,7 +16,7 @@ var ServerStatusComponent = (function () {
     }
     ServerStatusComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.serverStatusService.get().then(function (serverStatus) { return _this.serverStatus = { version: "API version: " + serverStatus.version }; }).catch(function (error) { return _this.serverStatus = { version: "API server not available" }; });
+        this.serverStatusService.get().then(function (serverStatus) { return _this.serverStatus = { version: "API version: " + serverStatus.version }; }).catch(function (error) { return _this.serverStatus = { version: 'API server not available' }; });
     };
     return ServerStatusComponent;
 }());
