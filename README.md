@@ -3,7 +3,7 @@
 Ready to deploy files. Just put the 'dist' directory in your static files directory. See [glaucoma-risk-calc-web-frontend](https://github.com/glaucoma-australia/glaucoma-risk-calc-web-frontend) repo for precompiled development source-code.
 
 ## Technical details
-Built in TypeScript with Angular 2.4.7, following latest official standards for scaffolding.
+Built in TypeScript with Angular 4.3.0, following latest official standards for scaffolding.
 
 ## Deploy
 
