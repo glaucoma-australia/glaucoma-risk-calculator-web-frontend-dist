@@ -308,7 +308,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 @angular/forms@4.4.0-RC.0 MIT
 
-glaucoma-risk-calculator-engine@https://api.github.com/repos/glaucoma-australia/glaucoma-risk-calculator-engine-dist/tarball ISC
+glaucoma-risk-calculator-engine@0.0.21 ISC
 
 zone.js@0.8.17 MIT
 The MIT License
