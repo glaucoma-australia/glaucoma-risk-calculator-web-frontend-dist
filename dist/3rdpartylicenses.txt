@@ -370,7 +370,7 @@ MIT
 MIT
 MIT
 
-glaucoma-risk-calculator-engine@0.0.24
+glaucoma-risk-calculator-engine@0.0.25
 ISC
 ISC
 
